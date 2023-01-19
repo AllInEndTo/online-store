@@ -18,7 +18,7 @@ class DeviceController {
                 info.forEach(i =>
                     DeviceInfo.create({
                         title: i.title,
-                        desciption: i.desciption,
+                        description: i.description,
                         deviceId: device.id
                     })
                 )
